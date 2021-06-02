@@ -3,6 +3,9 @@ vendor.oneplus.camera.CameraHIDL::IOnePlusCameraProvider                   u:obj
 vendor.oneplus.hardware.camera::IOnePlusCameraProvider                     u:object_r:hal_cameraHIDL_hwservice:s0
 vendor.oneplus.hardware.CameraMDMHIDL::IOnePlusCameraMDM                   u:object_r:hal_cameraHIDL_hwservice:s0
 
+# Charger
+vendor.oneplus.hardware.charger::ICharger                                  u:object_r:hal_charger_hwservice:s0
+
 # Display
 vendor.oneplus.hardware.display::IOneplusDisplay                           u:object_r:hal_display_hwservice:s0
 vendor.pixelworks.hardware.display::IIris                                  u:object_r:hal_display_iris_hwservice:s0

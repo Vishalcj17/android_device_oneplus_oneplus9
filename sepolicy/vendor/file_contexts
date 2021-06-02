@@ -6,6 +6,9 @@
 /(vendor|system/vendor)/bin/hw/vendor\.oneplus\.hardware\.camera@1\.0-service                      u:object_r:hal_cameraHIDL_default_exec:s0
 /(vendor|system/vendor)/bin/hw/vendor\.oneplus\.hardware\.CameraMDMHIDL@1\.0-service               u:object_r:hal_cameraHIDL_default_exec:s0
 
+# Charger
+/(vendor|system/vendor)/bin/hw/vendor\.oneplus\.hardware\.charger@1\.0-service                     u:object_r:hal_charger_default_exec:s0
+
 # Display
 /(vendor|system/vendor)/bin/hw/vendor\.oneplus\.hardware\.display@1\.0-service                     u:object_r:hal_display_default_exec:s0
 /(vendor|system/vendor)/bin/hw/vendor\.pixelworks\.hardware\.display\.iris-service                 u:object_r:hal_graphics_composer_default_exec:s0
@@ -26,6 +29,7 @@
 /mnt/vendor/persist/engineermode(/.*)?               u:object_r:oem_file:s0
 /mnt/vendor/persist/OPDiagnose(/.*)?                 u:object_r:oem_file:s0
 
+# OP Charge interfaces
 /sys/devices/platform/soc/soc:oplus,chg_intf/oplus_chg/(?!.*wakeup\d+).*                                             u:object_r:vendor_sysfs_battery_supply:s0
 /sys/devices/platform/soc/soc:oplus,chg_intf/soc:oplus,chg_intf:oplus,common-charge/oplus_chg/(?!.*wakeup\d+).*      u:object_r:vendor_sysfs_battery_supply:s0
 /sys/devices/platform/soc/soc:oplus,chg_intf/soc:oplus,chg_intf:oplus,wireless-charge/oplus_chg/(?!.*wakeup\d+).*    u:object_r:vendor_sysfs_battery_supply:s0
