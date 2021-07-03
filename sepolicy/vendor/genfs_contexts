@@ -15,6 +15,9 @@ genfscon sysfs /devices/platform/soc/soc:oplus,chg_gki/power_supply/battery     
 genfscon sysfs /devices/platform/soc/soc:oplus,chg_gki/power_supply/usb                                            u:object_r:vendor_sysfs_usb_supply:s0
 genfscon sysfs /devices/platform/soc/soc:oplus,chg_gki/power_supply/wireless                                       u:object_r:vendor_sysfs_usb_supply:s0
 
+# Vibrator
+genfscon sysfs /devices/platform/soc/88c000.i2c/i2c-10/10-005a/leds/vibrator                                       u:object_r:sysfs_leds:s0
+
 # Wakeups
 genfscon sysfs /devices/platform/dummy_hcd.0/usb1/wakeup                                                           u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/17300000.qcom,lpass/subsys6/wakeup                                            u:object_r:sysfs_wakeup:s0
