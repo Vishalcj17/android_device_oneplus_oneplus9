@@ -12,6 +12,20 @@
 /dev/goodix_fp                                                                                     u:object_r:vendor_fingerprint_device:s0
 /(vendor|system/vendor)/bin/hw/android\.hardware\.biometrics\.fingerprint@2\.2-service\.oneplus9   u:object_r:hal_fingerprint_default_exec:s0
 
+# Init scripts
+/vendor/bin/init.oplus_chg.sh    u:object_r:vendor_qti_init_shell_exec:s0
+
+# Persist
+/mnt/vendor/persist/camera(/.*)?                     u:object_r:oem_file:s0
+/mnt/vendor/persist/camera_ae_sync(/.*)?             u:object_r:oem_file:s0
+/mnt/vendor/persist/dual_camera_calibration(/.*)?    u:object_r:oem_file:s0
+/mnt/vendor/persist/engineermode(/.*)?               u:object_r:oem_file:s0
+/mnt/vendor/persist/OPDiagnose(/.*)?                 u:object_r:oem_file:s0
+
+/sys/devices/platform/soc/soc:oplus,chg_intf/oplus_chg/(?!.*wakeup\d+).*                                             u:object_r:vendor_sysfs_battery_supply:s0
+/sys/devices/platform/soc/soc:oplus,chg_intf/soc:oplus,chg_intf:oplus,common-charge/oplus_chg/(?!.*wakeup\d+).*      u:object_r:vendor_sysfs_battery_supply:s0
+/sys/devices/platform/soc/soc:oplus,chg_intf/soc:oplus,chg_intf:oplus,wireless-charge/oplus_chg/(?!.*wakeup\d+).*    u:object_r:vendor_sysfs_battery_supply:s0
+
 # Sysfs wakeup sources
 /sys/devices(/platform)?/soc/[0-9a-f]+.qcom,spmi/spmi-[0-9]+/spmi[0-9]+-[0-9]+/[0-9a-f]+.qcom,spmi:qcom,pmk[0-9]+@[0-9]+:pon_hlos@[0-9]+/wakeup/wakeup[0-9]+(/.*)? u:object_r:sysfs_wakeup:s0
 /sys/devices(/platform)?/soc/[0-9a-f]+.qcom,spmi/spmi-[0-9]+/spmi[0-9]+-[0-9]+/[0-9a-f]+.qcom,spmi:qcom,pmk[0-9]+@[0-9]+:pon_pbs@[0-9]+/wakeup/wakeup[0-9]+(/.*)? u:object_r:sysfs_wakeup:s0
