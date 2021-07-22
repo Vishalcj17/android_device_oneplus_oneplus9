@@ -227,6 +227,10 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.netflix.bsp_rev=Q875-32408-1
 
+# OEM Unlock
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
+    ro.oem_unlock_supported=1
+
 # Overlays
 PRODUCT_PACKAGES += \
     AOSPAOnePlus9ProSystemUI \
