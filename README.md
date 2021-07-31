@@ -1,5 +1,8 @@
 ## Guide to lock bootloader with AOSPA.
 
+ > First do run openssl commands on release key folder
+         'openssl pkcs8 -in releasekey.pk8 -inform DER -out releasekey.key -nocrypt'
+
  > Build dist with release keys first 
          './rom-build.sh -z -s /home/user/signing-keys/ -t user -v release oneplus9pro'
    Should be in this order of script.
