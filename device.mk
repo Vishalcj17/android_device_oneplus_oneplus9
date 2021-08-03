@@ -142,6 +142,13 @@ PRODUCT_PACKAGES += \
     vendor.oneplus.hardware.display@1.0.vendor
 
 PRODUCT_PROPERTY_OVERRIDES += \
+    debug.sf.early_app_phase_offset_ns=500000 \
+    debug.sf.early_gl_app_phase_offset_ns=15000000 \
+    debug.sf.early_gl_phase_offset_ns=3000000 \
+    debug.sf.early_phase_offset_ns=500000 \
+    debug.sf.high_fps_early_gl_phase_offset_ns=6500000 \
+    debug.sf.high_fps_early_phase_offset_ns=6100000 \
+    debug.sf.high_fps_late_app_phase_offset_ns=1000000 \
     debug.sf.disable_backpressure=1 \
     persist.sys.sf.native_mode=2 \
     ro.vendor.display.sensortype=2 \
