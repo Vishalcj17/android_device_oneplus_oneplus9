@@ -1913,10 +1913,29 @@ vendor/etc/sound_trigger_mixer_paths.xml:odm/overlay/prj_11/vendor/etc/sound_tri
 vendor/firmware/tfa98xx.cnt:odm/overlay/prj_11/vendor/firmware/tfa98xx.cnt|3273540edc56b3959a4c8d994c3e2fa0bd6d2cb8
 
 # Camera (Pro) - OOS
-vendor/etc/camera/CameraHWConfiguration.config:odm/overlay/prj_11/vendor/etc/camera/CameraHWConfiguration.config|a29ebf38dbfdd66ee394d0a6056f7e2901cef7dd
-vendor/lib64/camera/components/com.arcsoft.node.smooth_transition.so:odm/overlay/prj_11/vendor/lib64/camera/components/com.arcsoft.node.smooth_transition.so|a778fa63fef5edcbcddf0e1ba4348669334baaf2
-vendor/lib64/hw/camera.qcom.so:odm/overlay/prj_11/vendor/lib64/hw/camera.qcom.so|3e142383c49d2edeaf98c271f466a78a02764c33
-vendor/lib64/hw/com.qti.chi.override.so:odm/overlay/prj_11/vendor/lib64/hw/com.qti.chi.override.so|7da5afdce811e89a51216b80afd133ff62e3a2ff
+odm/etc/camera/config/camera_unit_config:odm/overlay/prj_11/odm/etc/camera/config/camera_unit_config|3273540edc56b3959a4c8d994c3e2fa0bd6d2cb8
+odm/etc/camera/config/oplus_camera_aps_config:odm/overlay/prj_11/odm/etc/camera/config/oplus_camera_aps_config|3273540edc56b3959a4c8d994c3e2fa0bd6d2cb8
+odm/etc/camera/config/oplus_camera_config:odm/overlay/prj_11/odm/etc/camera/config/oplus_camera_config|3273540edc56b3959a4c8d994c3e2fa0bd6d2cb8
+odm/etc/camera/CameraHWConfiguration.config:odm/overlay/prj_11/odm/etc/camera/CameraHWConfiguration.config|3273540edc56b3959a4c8d994c3e2fa0bd6d2cb8
+odm/etc/camera/calibrationOutput_uw.bin:odm/overlay/prj_11/odm/etc/camera/calibrationOutput_uw.bin|3273540edc56b3959a4c8d994c3e2fa0bd6d2cb8
+odm/etc/camera/calibrationOutput_uw_686.bin:odm/overlay/prj_11/odm/etc/camera/calibrationOutput_uw_686.bin|3273540edc56b3959a4c8d994c3e2fa0bd6d2cb8
+odm/etc/camera/calibrationOutput_wt.bin:odm/overlay/prj_11/odm/etc/camera/calibrationOutput_wt.bin|3273540edc56b3959a4c8d994c3e2fa0bd6d2cb8
+odm/etc/camera/engineer_camera_config:odm/overlay/prj_11/odm/etc/camera/engineer_camera_config|3273540edc56b3959a4c8d994c3e2fa0bd6d2cb8
+odm/etc/camera/settings_fdc.txt:odm/overlay/prj_11/odm/etc/camera/settings_fdc.txt|3273540edc56b3959a4c8d994c3e2fa0bd6d2cb8
+odm/etc/init/calibrationOutput_wt.rc:odm/overlay/prj_11/odm//etc/init/calibrationOutput_wt.rc|3273540edc56b3959a4c8d994c3e2fa0bd6d2cb8
+odm/lib64/camera/com.qti.sensor.imx789.lemonade.so:odm/overlay/prj_11/odm/lib64/camera/com.qti.sensor.imx789.lemonade.so|3273540edc56b3959a4c8d994c3e2fa0bd6d2cb8
+odm/lib64/camera/com.qti.sensor.ov08a10.lemonade.so:odm/overlay/prj_11/odm/lib64/camera/com.qti.sensor.ov08a10.lemonade.so|3273540edc56b3959a4c8d994c3e2fa0bd6d2cb8
+odm/lib64/camera/com.qti.sensormodule.lemonadep.holitech_gc02m1b.bin:odm/overlay/prj_11/odm/lib64/camera/com.qti.sensormodule.lemonadep.holitech_gc02m1b.bin|3273540edc56b3959a4c8d994c3e2fa0bd6d2cb8
+odm/lib64/camera/com.qti.sensormodule.lemonadep.qtech_ov08a10.bin:odm/overlay/prj_11/odm/lib64/camera/com.qti.sensormodule.lemonadep.qtech_ov08a10.bin|3273540edc56b3959a4c8d994c3e2fa0bd6d2cb8
+odm/lib64/camera/com.qti.sensormodule.lemonadep.semco_imx789.bin:odm/overlay/prj_11/odm/lib64/camera/com.qti.sensormodule.lemonadep.semco_imx789.bin|3273540edc56b3959a4c8d994c3e2fa0bd6d2cb8
+odm/lib64/camera/com.qti.sensormodule.lemonadep.semco_imx789_MP.bin:odm/overlay/prj_11/odm/lib64/camera/com.qti.sensormodule.lemonadep.semco_imx789_MP.bin|3273540edc56b3959a4c8d994c3e2fa0bd6d2cb8
+odm/lib64/camera/com.qti.sensormodule.lemonadep.sunny_imx766.bin:odm/overlay/prj_11/odm/lib64/camera/com.qti.sensormodule.lemonadep.sunny_imx766.bin|3273540edc56b3959a4c8d994c3e2fa0bd6d2cb8
+odm/lib64/camera/com.qti.sensormodule.lemonadep.sunny_imx766_MP.bin:odm/overlay/prj_11/odm/lib64/camera/com.qti.sensormodule.lemonadep.sunny_imx766_MP.bin|3273540edc56b3959a4c8d994c3e2fa0bd6d2cb8
+odm/lib64/camera/com.qti.sensormodule.lemonadep.sunny_imx766_ak7375c.bin:odm/overlay/prj_11/odm/lib64/camera/com.qti.sensormodule.lemonadep.sunny_imx766_ak7375c.bin|3273540edc56b3959a4c8d994c3e2fa0bd6d2cb8
+odm/lib64/camera/com.qti.sensormodule.lemonadep.truly_imx471.bin:odm/overlay/prj_11/odm/lib64/camera/com.qti.sensormodule.lemonadep.truly_imx471.bin|3273540edc56b3959a4c8d994c3e2fa0bd6d2cb8
+odm/lib64/camera/com.qti.tuned.holitech_gc02m1b.bin:odm/overlay/prj_11/odm/lib64/camera/com.qti.tuned.holitech_gc02m1b.bin|3273540edc56b3959a4c8d994c3e2fa0bd6d2cb8
+odm/lib64/camera/com.qti.tuned.qtech_ov08a10.bin:odm/overlay/prj_11/odm/lib64/camera/com.qti.tuned.qtech_ov08a10.bin|3273540edc56b3959a4c8d994c3e2fa0bd6d2cb8
+odm/lib64/camera/com.qti.tuned.semco_imx789.bin:odm/overlay/prj_11/odm/lib64/camera/com.qti.tuned.semco_imx789.bin|3273540edc56b3959a4c8d994c3e2fa0bd6d2cb8
 
 # Sensors (Pro) - OOS
 vendor/etc/bluetooth/nvm/1111hpnv10.bin:odm/overlay/prj_11/vendor/etc/bluetooth/nvm/1111hpnv10.bin|9e901e4539edc573b369bd056f72d95ab727ab0d
