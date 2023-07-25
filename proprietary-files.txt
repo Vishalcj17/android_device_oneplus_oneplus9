@@ -863,6 +863,7 @@ vendor/lib64/libmidasserviceintf_aidl.so|2782576fdd1448e9a17a7ffc34b2826ec42107c
 odm/lib64/vendor.oplus.hardware.cammidasservice-V1-ndk_platform.so|faff993f8153eaf55223f49e5e2ad378f4e96013
 odm/lib64/vendor.oplus.hardware.orms@1.0.so|faff993f8153eaf55223f49e5e2ad378f4e96013
 odm/lib64/vendor.oplus.hardware.osense.client@1.0.so|ef23670ea9959bfcd159fee682a0aaa9418b6761
+odm/lib64/vendor.oplus.hardware.osense.client-V1-ndk_platform.so|ef23670ea9959bfcd159fee682a0aaa9418b6761
 vendor/etc/camera/M_FaceAttribute_RGB_age_gender_1.7.1.model.hardcode|5e1acd6e3dc59c74bd397a2d86f01c0bde1d3e4e
 vendor/firmware/CAMERA_ICP.elf|d5e1a5d65150a40e8c9a40a51cb1592d302f4b5a
 vendor/firmware/tof8801_firmware.bin|d31c400790c7ee547ffa2ae5aa6c79988437399e
