@@ -34,7 +34,6 @@ function vendor_imports() {
         "vendor/qcom/common/vendor/gps-legacy",
         "vendor/qcom/common/vendor/media-5.4",
         "vendor/qcom/common/vendor/wlan-legacy",
-        "vendor/qcom/common/vendor/qseecomd",
 EOF
 }
 
