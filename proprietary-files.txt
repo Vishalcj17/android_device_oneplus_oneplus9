@@ -21,7 +21,6 @@ vendor/lib64/libcdsprpc.so
 vendor/lib64/libloadalgo_stub.so
 vendor/lib64/libmdsprpc.so
 vendor/lib64/libsdsprpc.so
-vendor/lib64/libssc_default_listener.so
 vendor/lib64/libsysmon_cdsp_skel.so
 vendor/lib64/vendor.qti.hardware.dsp@1.0.so
 
@@ -954,9 +953,7 @@ odm/lib64/libyuvwrapper.so|40042e3ef9e520e338791de0ee1e65241cdd2f43
 odm/lib64/vendor.oplus.hardware.cameraextension-V1-service-impl.so|c532edf7f8020cf69feb788ae67bba72cbc5e81f
 odm/lib64/vendor.oplus.hardware.cammidasservice-V1-ndk_platform.so|41a058468ad3002dffd6416a9d42734cd851c9da
 odm/lib64/vendor.oplus.hardware.orms@1.0.so|5cc13fd1ecc133ca53d44c5527bd364468b2ab3d
-odm/lib64/vendor.oplus.hardware.osense.client-V1-ndk_platform.so|5df4a49fde6206da1ceed26aa93144ed43fab7f7
 odm/lib64/vendor.oplus.hardware.osense.client@1.0.so|61fe918916be184ddd08edf119b84cf654767f89
-odm/lib64/vendor.oplus.hardware.sendextcamcmd-V1-ndk_platform.so|9b426584c17e1c2b7635e11c86f2ee0be4a3ef04
 odm/lib64/vendor.oplus.hardware.sendextcamcmd-V1-service-impl.so|705d6441f2cc1ac71aceb25738e482f8cff7d37f
 vendor/lib64/camera/components/com.qti.camx.chiiqutils.so|9ea91b6114e9e48e94b42291eca8a6276bb41c62
 vendor/lib64/camera/components/com.qti.eisv2.so|30397a48c240404030682422c7141b794ea647f6
