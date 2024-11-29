@@ -1161,6 +1161,8 @@ vendor/firmware/ipa_fws.mdt|8996e682a1bcf183589823470fc7a166113ebd9e
 vendor/bin/diag-router
 vendor/etc/init/vendor.qti.diag.rc
 vendor/etc/vintf/manifest/vendor.qti.diag.hal.service.xml
+vendor/lib/libdiag.so
+vendor/lib64/libdiag.so
 vendor/lib64/vendor.qti.diaghal@1.0.so;MODULE_SUFFIX=_vendor
 
 # Display - OOS
@@ -1184,12 +1186,10 @@ odm/bin/hw/vendor.oplus.hardware.biometrics.fingerprint@2.1-service|95eaf0ac7b71
 odm/bin/init.oplus.fingerprints.sh|950befd6f64d4055bf47ab066a0a1e0080e6191e
 odm/etc/init/vendor.oplus.hardware.biometrics.fingerprint@2.1-service.rc|5eead2eabcc060ce5d400a779f1e8482732b7012
 odm/etc/vintf/manifest/manifest_oplus_fingerprint.xml|78ca4f56ed1f5dd48c186718718fd9513629851e
-odm/lib/vendor.oplus.hardware.biometrics.fingerprint@2.1.so|daddd0965aa6d0bdd8e56c6a8068548f121dcbc9
 odm/lib64/anc.hal.so|9a978ca68dde8e11a33e993ab05added88b45ed7
 odm/lib64/hw/fingerprint.goodix_G3.default.so|cc2db026878f5db3e409301446164275f940de6b
 odm/lib64/libgf_hal_G3.so|4736477362e83d1fe4c79ca9eb67da54f6ef949e
 odm/lib64/libolc_vnd.so|7ec00a916bb04dcc1b2b0d13344620a812104598
-odm/lib64/vendor.oplus.hardware.biometrics.fingerprint@2.1.so|6e3b0bbf85420f5675cce2000e258f3f6192dd49
 odm/lib64/vendor.oplus.hardware.commondcs-V1-ndk_platform.so|f63b35e2478bad4fae7cacf5e8ef06c69e69ea80
 odm/lib64/vendor.oplus.hardware.olc2-V1-ndk_platform.so|b210036f6e30ea8d78a920c4ff7872c20c0c304a
 odm/vendor/firmware/goodixfp.b00|ebe5157114d42df4c9c002bbd39e9f9432cee7f0
@@ -1627,10 +1627,23 @@ vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so
 # SecureMSM
 vendor/bin/hdcp1prov
 vendor/bin/hdcp2p2prov
+vendor/lib64/libbase64.so
+vendor/lib64/libcpion.so
+vendor/lib64/libhdcpsrm.so
 vendor/lib64/libhdcp1prov.so
 vendor/lib64/libhdcp2p2prov.so
-vendor/lib64/libhdcpsrm.so
+vendor/lib64/libops.so
+vendor/lib64/libqisl.so
 vendor/lib64/libspl.so
+vendor/lib64/libtrustedapploader.so
+vendor/lib64/libtzdrmgenprov.so
+
+# SMC Invoke
+vendor/etc/ssg/ta_config.json
+vendor/etc/ssg/tz_whitelist.json
+vendor/lib64/libminkdescriptor.so
+vendor/lib64/libnative-api.so
+vendor/lib64/libqcbor.so
 
 # Soter
 vendor/bin/hw/vendor.qti.hardware.soter@1.0-service
@@ -1663,6 +1676,7 @@ vendor/lib64/libthermalclient.so|06ce477c2c01b916b9f3c0b934dd377ff8fc9f8f
 vendor/app/TimeService/TimeService.apk
 vendor/bin/time_daemon
 vendor/etc/init/init.time_daemon.rc
+vendor/lib64/libtime_genoff.so
 
 # Touch - OOS
 odm/firmware/tp/19815/FW_S3908_SAMSUNG.img|aff80e47bd5361baf8047af516588a8619c8a190
