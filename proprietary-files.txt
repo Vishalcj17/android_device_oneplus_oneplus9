@@ -830,7 +830,7 @@ odm/etc/vintf/manifest/manifest_oplus_cameraextension_aidl.xml|26cae610d96fcb2de
 odm/etc/vintf/manifest/manifest_oplus_sendextcamcmd.xml|59784c0c2d9320dae84da6143017f6d9639df6a2
 odm/lib/libDeVIS.so|2a190416c1f15817947c01f7da5821e1a2a68e40
 odm/lib/libc++_shared.so|1ec35a25d92cfc44994d696c2c1f623106888687
-odm/lib/libdehaze.so;DISABLE_CHECKELF|60523a7591fad4d82053811526b6d2dc92b6f22f
+odm/lib/libdehaze.so|60523a7591fad4d82053811526b6d2dc92b6f22f
 odm/lib/libfastov_dsp.so|690946273fee30a136adc3b77e600ac388a5045f
 odm/lib/libnightvision.so;FIX_SONAME|e2ac7ff67f033eeb2d01100a3d0d2e780af4a95f
 odm/lib64/camera/com.qti.sensor.gc02m1b.lemonade.so|3a48e82c6082ec14c2877c87f742be88a84b9961
