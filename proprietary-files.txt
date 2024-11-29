@@ -145,7 +145,7 @@ vendor/lib/libcapiv2svarnn.so|165509096605c4afd585762a2f6e467f55954a23
 vendor/lib/libcapiv2vop.so|19979321e66a3b01d5d51ab6a517530c8c4c05af
 vendor/lib/libdrc.so|e0a487a5593ae44546f321d2e9341f8eb1d24884
 vendor/lib/libdsd2pcm.so|64d91a96068049b46710e1670c8db44868301db0
-vendor/lib/libextcamera_client.so|cde5c05aa1a65e8e7043af843f4c0b2fd71154a8
+vendor/lib/libextcamera_client.so;DISABLE_CHECKELF|cde5c05aa1a65e8e7043af843f4c0b2fd71154a8
 vendor/lib/libgcs-calwrapper.so|5d53c3423598ff838370e9d69ab0f26fe9141879
 vendor/lib/libgcs-ipc.so|7f79e3683ed808ae5e67029bb6542b14fa6a86a6
 vendor/lib/libgcs-osal.so|9ac399fbee4e73561c0a3f397fe6ffdc9c42892c
@@ -811,7 +811,7 @@ odm/etc/vintf/manifest/manifest_oplus_cameraextension_aidl.xml|26cae610d96fcb2de
 odm/etc/vintf/manifest/manifest_oplus_sendextcamcmd.xml|59784c0c2d9320dae84da6143017f6d9639df6a2
 odm/lib/libDeVIS.so|2a190416c1f15817947c01f7da5821e1a2a68e40
 odm/lib/libc++_shared.so|1ec35a25d92cfc44994d696c2c1f623106888687
-odm/lib/libdehaze.so|60523a7591fad4d82053811526b6d2dc92b6f22f
+odm/lib/libdehaze.so;DISABLE_CHECKELF|60523a7591fad4d82053811526b6d2dc92b6f22f
 odm/lib/libfastov_dsp.so|690946273fee30a136adc3b77e600ac388a5045f
 odm/lib/libnightvision.so;FIX_SONAME|e2ac7ff67f033eeb2d01100a3d0d2e780af4a95f
 odm/lib64/camera/arcsoft_calibration_uw.bin|d96dfd77dd933f3c6c1e76edbf941bad116c2579
@@ -917,7 +917,7 @@ odm/lib64/libarcsoft_triple_sat.so|51ee0b93e6fa8102d99e6be87de40562a634861f
 odm/lib64/libarcsoft_triple_zoomtranslator.so|e34fd95a249ab4f2b7ab2b7f8d3ac0f5922ee549
 odm/lib64/libarcsoft_videoautozoom.so|0ce135dc557ada62e7837d04cc7fd40a2f9d6196
 odm/lib64/libc++_shared.so|d5ba162c9b3165804df81d3260b7dcf32a1a46be
-odm/lib64/libdehaze.so|677160827b46f7e33f85fe95876c1fcd2d737c8a
+odm/lib64/libdehaze.so;DISABLE_CHECKELF|677160827b46f7e33f85fe95876c1fcd2d737c8a
 odm/lib64/libdualcam_image_optical_zoom.so|ce3bfa10cd9449971711c6e22e0dc3b7c0c1a5b8
 odm/lib64/libdualcam_optical_zoom_control.so|96d8929035823dc8bbbf2ac7c3fb363be9a52458
 odm/lib64/libdualcam_video_optical_zoom.so|b31c0b57e0d146c919ceb90d2563250f033bdb71
