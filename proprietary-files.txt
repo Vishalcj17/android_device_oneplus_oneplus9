@@ -25,8 +25,8 @@ vendor/lib64/libsysmon_cdsp_skel.so
 vendor/lib64/vendor.qti.hardware.dsp@1.0.so
 
 # ADSP modules - OOS
-odm/lib/rfsa/adsp/aiboost/libQnnHtpAltPrepSkel.so;MODULE_SUFFIX=_oneplus9|39acd91b22fe3d98eabdc49291088f43a9ac1ce6
-odm/lib/rfsa/adsp/aiboost/libQnnHtpSkel.so;MODULE_SUFFIX=_oneplus9|01c70172a0cb243fa91923ecd200a4cb69ae3128
+odm/lib/rfsa/adsp/aiboost/libQnnHtpAltPrepSkel.so;MODULE_SUFFIX=_aiboost_oneplus9|39acd91b22fe3d98eabdc49291088f43a9ac1ce6
+odm/lib/rfsa/adsp/aiboost/libQnnHtpSkel.so;MODULE_SUFFIX=_aiboost_oneplus9|01c70172a0cb243fa91923ecd200a4cb69ae3128
 odm/lib/rfsa/adsp/aiboost/libaiboostubwc_skel.so|651cdf1888ef59a9250708217299cd784107fd93
 odm/lib/rfsa/adsp/libQnnHtp.so|26d59a167971281ccad3b9227099984b3cf79e46
 odm/lib/rfsa/adsp/libQnnHtpAltPrepSkel.so;MODULE_SUFFIX=_oneplus9|39acd91b22fe3d98eabdc49291088f43a9ac1ce6
